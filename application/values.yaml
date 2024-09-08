@@ -57,7 +57,7 @@ ingress:
         - path: /
           pathType: ImplementationSpecific
   tls: 
-    - secretName: wordpress-demo-tls
+    - secretName: argo-demo-tls
       hosts:
         - wordpress-demo.amazon1app.com
 
